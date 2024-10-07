@@ -1,4 +1,4 @@
-# SenseKit (Under progress)
+# SenseKit
 
 <img src="https://github.com/danieltefera08/SenseKit/blob/main/app/src/main/ic_launcher-playstore.png" width="200">
 
@@ -81,3 +81,7 @@ def udp_server(server_address = ('0.0.0.0', 8080), buffer_size = 1024):
 udp_server()
 
 ```
+
+## Installation
+Download apk from [release](https://github.com/danieltefera08/SenseKit/releases) section. Not available on F-Droid yet
+
