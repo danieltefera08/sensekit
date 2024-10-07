@@ -1,6 +1,14 @@
 # SenseKit (Under progress)
 
-Stream Android sensors over UDP
+<img src="https://github.com/danieltefera08/SenseKit/blob/main/app/src/main/ic_launcher-playstore.png" width="200">
+
+![GitHub License](https://img.shields.io/github/license/danieltefera08/SenseKit?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/Android-5.0%2B-blue?style=for-the-badge) ![Static Badge](https://img.shields.io/badge/Jet%20Pack%20Compose-blue?style=for-the-badge)
+
+
+
+
+
+Stream Android sensors over UDP with low latency 
 
 <img src="https://github.com/user-attachments/assets/0f8476cd-add4-4f19-8124-64db871e2e9b" width="250">
 <img src="https://github.com/user-attachments/assets/82598003-610a-4b22-92b3-560dca22e503" width="250">
