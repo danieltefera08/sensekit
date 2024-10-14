@@ -44,6 +44,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.github.danieltefera08.sensekit.view.components.theme.SenseKitTheme
 import com.github.danieltefera08.sensekit.view.components.EditTextPreference
+import com.github.danieltefera08.sensekit.view.components.SwitchPreference
 import com.github.danieltefera08.sensekit.viewmodel.SettingScreenEvent
 import com.github.danieltefera08.sensekit.viewmodel.SettingsScreenUiState
 import com.github.danieltefera08.sensekit.viewmodel.SettingsScreenViewModel
@@ -161,6 +162,16 @@ fun SettingsScreenContent(
                 keyboardType = KeyboardType.Number
             )
 
+        )
+
+        SwitchPreference(
+            title = "Stream On Boot",
+            subtitle = if(uiState.streamOnBoot) "Target Address : ${uiState.savedIpAddress}:${uiState.savedPortNo}" else null,
+            checked = uiState.streamOnBoot,
+            onCheckedChange = {
+                onUIEvent(SettingScreenEvent.OnStreamOnBootChange(it))
+                onUIEvent(SettingScreenEvent.OnSaveStreamOnBoot(it))
+            }
         )
 
 
