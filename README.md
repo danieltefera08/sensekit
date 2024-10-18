@@ -110,5 +110,11 @@ A demonstration of SenseKit's sensor data streaming capabilities via UDP, utiliz
 
 
 ## Installation
-Download apk from [release](https://github.com/danieltefera08/SenseKit/releases) section. Not available on F-Droid yet
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+    alt="Get it on F-Droid"
+    height="100">](https://f-droid.org/packages/com.github.danieltefera08.sensekit/)
+
+OR
+
+Download apk from [release](https://github.com/danieltefera08/SenseKit/releases) section.
 
