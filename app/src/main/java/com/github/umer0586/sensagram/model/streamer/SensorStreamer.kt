@@ -32,8 +32,8 @@ import android.location.LocationManager
 import android.os.Build
 import android.os.Handler
 import android.os.HandlerThread
-import com.github.danieltefera08.sensekit.model.DeviceSensor
-import com.github.danieltefera08.sensekit.model.toDeviceSensors
+import com.github.danieltefera08.sensekit.model.data.DeviceSensor
+import com.github.danieltefera08.sensekit.model.data.toDeviceSensors
 import com.github.danieltefera08.sensekit.model.util.JsonUtil
 import java.net.DatagramPacket
 import java.net.DatagramSocket
