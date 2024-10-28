@@ -42,8 +42,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.github.danieltefera08.sensekit.model.DeviceSensor
-import com.github.danieltefera08.sensekit.model.fakeSensors
+import com.github.danieltefera08.sensekit.model.data.DeviceSensor
+import com.github.danieltefera08.sensekit.model.data.fakeSensors
 import com.github.danieltefera08.sensekit.view.components.theme.SenseKitTheme
 
 
