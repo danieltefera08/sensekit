@@ -42,17 +42,16 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import androidx.lifecycle.viewmodel.compose.viewModel
-import com.github.danieltefera08.sensekit.view.components.theme.SenseKitTheme
 import com.github.danieltefera08.sensekit.view.components.EditTextPreference
 import com.github.danieltefera08.sensekit.view.components.SwitchPreference
+import com.github.danieltefera08.sensekit.view.components.theme.SenseKitTheme
 import com.github.danieltefera08.sensekit.viewmodel.SettingScreenEvent
 import com.github.danieltefera08.sensekit.viewmodel.SettingsScreenUiState
 import com.github.danieltefera08.sensekit.viewmodel.SettingsScreenViewModel
 
 
 @Composable
-fun SettingsScreen(viewModel: SettingsScreenViewModel = viewModel()) {
+fun SettingsScreen(viewModel: SettingsScreenViewModel) {
 
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
 
