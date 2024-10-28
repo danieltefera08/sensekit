@@ -22,11 +22,9 @@ package com.github.danieltefera08.sensekit
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.lifecycle.lifecycleScope
-import com.github.danieltefera08.sensekit.model.repository.SettingsRepository
-import com.github.danieltefera08.sensekit.view.components.theme.SenseKitTheme
 import com.github.danieltefera08.sensekit.view.components.screens.NavScreen
-import kotlinx.coroutines.launch
+import com.github.danieltefera08.sensekit.view.components.theme.SenseKitTheme
+
 //Todo : Add splash screen
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
