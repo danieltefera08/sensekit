@@ -109,6 +109,8 @@ for GPS data description see [GPS Data Description](https://github.com/danieltef
 ```bash
 python server.py
 ```
+⚠️ Make sure your firewall settings are not blocking incoming data. see issue [Firewall caused errors](https://github.com/danieltefera08/SenseKit/issues/6)  
+
 #### 4. Configure the SenseKit app:
 In the app's settings, enter the IP address of the machine running this script. To find your machines's IP address:
 - On **Windows**, use the `ipconfig` command.
