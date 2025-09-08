@@ -22,8 +22,8 @@ package com.github.danieltefera08.sensekit
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.github.danieltefera08.sensekit.view.components.screens.NavScreen
-import com.github.danieltefera08.sensekit.view.components.theme.SenseKitTheme
+import com.github.danieltefera08.sensekit.ui.screens.NavScreen
+import com.github.danieltefera08.sensekit.ui.theme.SenseKitTheme
 
 //Todo : Add splash screen
 class MainActivity : ComponentActivity() {

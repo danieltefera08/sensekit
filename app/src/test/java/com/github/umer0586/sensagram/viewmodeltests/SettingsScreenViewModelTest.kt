@@ -1,10 +1,10 @@
 package com.github.danieltefera08.sensekit.viewmodeltests
 
-import com.github.danieltefera08.sensekit.model.data.Setting
-import com.github.danieltefera08.sensekit.model.repository.SettingsRepository
+import com.github.danieltefera08.sensekit.data.model.Setting
+import com.github.danieltefera08.sensekit.data.repository.SettingsRepository
 import com.github.danieltefera08.sensekit.testrule.MainDispatcherRule
-import com.github.danieltefera08.sensekit.viewmodel.SettingScreenEvent
-import com.github.danieltefera08.sensekit.viewmodel.SettingsScreenViewModel
+import com.github.danieltefera08.sensekit.ui.screens.settings.SettingScreenEvent
+import com.github.danieltefera08.sensekit.ui.screens.settings.SettingsScreenViewModel
 import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals

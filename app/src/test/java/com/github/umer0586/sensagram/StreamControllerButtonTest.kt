@@ -13,7 +13,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.github.danieltefera08.sensekit.view.components.StreamControllerButton
+import com.github.danieltefera08.sensekit.ui.components.StreamControllerButton
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith

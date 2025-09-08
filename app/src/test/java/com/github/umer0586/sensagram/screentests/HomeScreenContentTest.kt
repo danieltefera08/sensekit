@@ -5,9 +5,9 @@ import androidx.compose.ui.test.assertIsNotDisplayed
 import androidx.compose.ui.test.junit4.createComposeRule
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
-import com.github.danieltefera08.sensekit.model.streamer.StreamingInfo
-import com.github.danieltefera08.sensekit.view.components.screens.HomeScreenContent
-import com.github.danieltefera08.sensekit.viewmodel.HomeScreenUiState
+import com.github.danieltefera08.sensekit.data.streamer.StreamingInfo
+import com.github.danieltefera08.sensekit.ui.screens.home.HomeScreenContent
+import com.github.danieltefera08.sensekit.ui.screens.home.HomeScreenUiState
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import org.junit.Rule
 import org.junit.Test
