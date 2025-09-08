@@ -22,6 +22,7 @@ package com.github.danieltefera08.sensekit
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
 import com.github.danieltefera08.sensekit.ui.screens.NavScreen
 import com.github.danieltefera08.sensekit.ui.theme.SenseKitTheme
 
@@ -31,7 +32,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         // TODO : enable edge to edge
-        //enableEdgeToEdge()
+        enableEdgeToEdge()
         setContent {
 
             // TODO : Add dark theme switch
