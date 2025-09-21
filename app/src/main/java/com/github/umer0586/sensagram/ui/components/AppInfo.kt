@@ -1,5 +1,5 @@
 /*
- *     This file is a part of SenseKit (https://github.com/danieltefera08/SenseKit)
+ *     This file is a part of SenseKit (https://www.github.com/danieltefera08/sensekit)
  *     Copyright (C) 2024 Daniel Tefera Birhanu (danielteferabirhanu@gmail.com)
  *
  *     SenseKit is free software: you can redistribute it and/or modify
@@ -56,7 +56,7 @@ fun AppInfo(
     versionName: String,
     developer: String = "Daniel Tefera Birhanu",
     developerEmail: String = "danielteferabirhanu@gmail.com",
-    sourceCodeLink : String = "https://github.com/danieltefera08/SenseKit",
+    sourceCodeLink : String = "https://www.github.com/danieltefera08/sensekit",
     license : String = "GPL-3.0",
     onEmailClick: ((String) -> Unit)? = null,
     onSourceCodeClick: ((String) -> Unit)? = null

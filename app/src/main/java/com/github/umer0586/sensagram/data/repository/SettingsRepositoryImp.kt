@@ -1,5 +1,5 @@
 /*
- *     This file is a part of SenseKit (https://github.com/danieltefera08/SenseKit)
+ *     This file is a part of SenseKit (https://github.com/danieltefera08/sensekit)
  *     Copyright (C) 2024 Daniel Tefera Birhanu (danielteferabirhanu@gmail.com)
  *
  *     SenseKit is free software: you can redistribute it and/or modify
