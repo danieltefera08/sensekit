@@ -3,9 +3,9 @@
 # SenseKit
 
  
-<img src="https://github.com/danieltefera08/SenseKit/blob/main/app/src/main/ic_launcher-playstore.png" width="200">
+<img src="https://github.com/danieltefera08/sensekit/blob/main/app/src/main/ic_launcher-playstore.png" width="200">
 
-[<img src="https://github.com/user-attachments/assets/0f628053-199f-4587-a5b2-034cf027fb99" height="100">](https://github.com/danieltefera08/SenseKit/releases) [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="100">](https://f-droid.org/packages/com.github.danieltefera08.sensekit/)
+[<img src="https://github.com/user-attachments/assets/0f628053-199f-4587-a5b2-034cf027fb99" height="100">](https://github.com/danieltefera08/sensekit/releases) [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="100">](https://f-droid.org/packages/com.github.danieltefera08.sensekit/)
 
 ![GitHub License](https://img.shields.io/github/license/danieltefera08/SenseKit?style=for-the-badge) ![Android Badge](https://img.shields.io/badge/Android-5.0+-34A853?logo=android&logoColor=fff&style=for-the-badge) ![Jetpack Compose Badge](https://img.shields.io/badge/Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=fff&style=for-the-badge) ![Static Badge](https://img.shields.io/badge/protocol-UDP-teal?style=for-the-badge) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/danieltefera08/SenseKit/build.yml?style=for-the-badge&logo=appveyor)
  ![GitHub Release](https://img.shields.io/github/v/release/danieltefera08/SenseKit?include_prereleases&style=for-the-badge)
@@ -103,13 +103,13 @@ server.setDataCallBack(onData)
 server.start()
 
 ```
-for GPS data description see [GPS Data Description](https://github.com/danieltefera08/SenseKit/wiki/GPS-Data-Description)
+for GPS data description see [GPS Data Description](https://github.com/danieltefera08/sensekit/wiki/GPS-Data-Description)
 
 #### 3 Run the script on the machine you want to receive data on:
 ```bash
 python server.py
 ```
-⚠️ Make sure your firewall settings are not blocking incoming data. see issue [Firewall caused errors](https://github.com/danieltefera08/SenseKit/issues/6)  
+⚠️ Make sure your firewall settings are not blocking incoming data. see issue [Firewall caused errors](https://github.com/danieltefera08/sensekit/issues/6)  
 
 #### 4. Configure the SenseKit app:
 In the app's settings, enter the IP address of the machine running this script. To find your machines's IP address:
@@ -123,6 +123,10 @@ The app can stream sensor data to a specified address upon device boot. For devi
 A demonstration of SenseKit's sensor data streaming capabilities via UDP, utilizing a Python script within Blender to map phone orientation and dynamically control the rotation of a 3D object. See [rotate.py](https://gist.github.com/a5b1247b1999848fe16dda340335dfe6.git)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IxHCX9Im31A/0.jpg)](https://www.youtube.com/watch?v=IxHCX9Im31A)
+
+## Projects Using SenseKit
+1. Python program that receives data via UDP through the sensekit application, and generates graphs in relation to a structure for remote management and damage alerts. [https://github.com/DaviCunhaQ/riggy](https://github.com/DaviCunhaQ/riggy)
+2. Augmented reality prototype for teaching 3D geometry, where geometric figures (cube, sphere, cone, etc.) are displayed in real time over video. It uses OpenGL, OpenCV, and integrates with the **SenseKit** app to control figure rotation via a smartphone’s accelerometer. [https://github.com/zrafa/ra](https://github.com/zrafa/ra)
 
 
 
